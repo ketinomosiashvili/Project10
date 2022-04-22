@@ -4,8 +4,16 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- fb meta tags -->
+    <meta property="og:url"                content="" />
+    <meta property="og:type"               content="website" />
+    <meta property="og:title"              content="Zettta Hotels" />
+    <meta property="og:description"        content="Our Hotel is Te best in the City" />
+    <meta property="og:image"              content="mohamed-ajufaan-GFcWwwGNu_w-unsplash.png" />
+
     <link rel="stylesheet" href="CSS/reset.css">
     <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
     <title>Zetta Hotels</title>
 </head>
 <body>
@@ -20,7 +28,7 @@
                         <ul class="nav-ul">
                             <li class="li-text " ><a class="act"  href="index.html">HOME</a></li>
                             <li class="li-text">
-                                <a href="index.html">ROOMS</a></li>
+                                <a href="index.html">ROOMS <i class="fa-solid fa-chevron-down"></i></a></li>
                             <li class="li-text"><a href="index.html">Restaurants</a></li>
                             <li class="li-text"><a href="index.html">About us</a></li>
                             <li class="li-text"><a href="index.html">Blog</a></li>
@@ -42,9 +50,9 @@
              
         </div>
     </header>
-    <section>
+    <div>
         <iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d3259.109926176124!2d-80.8388072!3d35.2286335!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ska!2sge!4v1650605966353!5m2!1ska!2sge" width="1088" height="286" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-    </section>
+    </div>
 
     <section class="form-section">
         <div class="text">
@@ -60,7 +68,7 @@
                 <div>
                     <div>
                         <label for="subject"></label>
-                        <input class="input-block"type="text" id="subject" name="userSubject" placeholder="Subject" required>
+                        <input class="input-block" type="text" id="subject" name="userSubject" placeholder="Subject" required>
                     </div>
                     <div>
                         <label for="name"></label>
@@ -70,25 +78,25 @@
                         <label for="email"></label>
                         <input class="input-block" type="email" id="email" name="userEmail" placeholder="Email" required>
                     </div>
-                    <button type="submit">Send</button>   
+                    <button type="submit">Send <i class="fa-solid fa-paper-plane"></i></button>   
                 </div>            
             </div>            
         </form>
         <div class="block-container">
             <div class="block">
-                <div class="circle"></i></div>
+                <div class="circle"><i class="icon fa-regular fa-envelope"></i></div>
                 <h4 class="h4-info">Email</h4>
                 <p class="p-info">example@yahoo.com</p>
                 <p class="p-info">exampleemail2@yahoo.com</p>
             </div>
             <div class="block">
-                <div class="circle"></i></div>
+                <div class="circle"><i class="icon fa-solid fa-phone"></i></div>
                 <h4 class="h4-info">Phone</h4>
                 <p class="p-info">+0 320 422 4254</p>
                 <p class="p-info">+0 342 552 523</p>
             </div>
             <div class="block">
-                <div class="circle"></i></div>
+                <div class="circle"><i class="loc-icon fa-solid fa-location-dot"></i> </div>
                 <h4 class="h4-info">Location</h4>
                 <p class="p-info">Main Str Chicago Ilinois</p>
                 <p class="p-info">Main Street New York City</p>
@@ -96,7 +104,66 @@
         </div>
         
     </section>
+    <section>
+        <div class="text2">
+            <h2 class="form-contact">Photos</h2>
+            <h3 class="black-title">See our latest photos from restaurant and hotel</h3> 
+         </div>
+         <div class="photo-container">
+             <img src="IMAGES/mohamed-ajufaan-GFcWwwGNu_w-unsplash.png" alt="beach-img">
+             <img src="IMAGES/manuel-moreno-DGa0LQ0yDPc-unsplash.png" alt="hotel-img">
+             <img src="IMAGES/rhema-kallianpur-jbJ-_hw2yag-unsplash.png" alt="hotel-img">
+         </div>
+    </section>
+    <footer>
+        <div class="footer-block-container">
+            <div class="footer-info-div">
+                <h4 class="footer-title">Zetta Hotels</h4>
+                <p class="Zetta-p">Our hotel is an image of quality and profesionalism combined with hard work and precision. You can expect only the best services from our staff.</p>
+                <div class="media-icon-container">
+                    <div class="media-icon"><i class="fa-brands fa-facebook-f"></i>
+                    </div> 
+                    <div class="media-icon"><i class="fa-brands fa-twitter"></i>
+                    </div> 
+                    <div class="media-icon"><i class="fa-brands fa-google-plus-g"></i>
+                    </div> 
+                </div>
+            </div>
+            <div>
+                <h4 class="footer-title">Useful links</h4>
+                <h5 class="footer-text-h5 violet">Blog</h5>
+                <h5 class="footer-text-h5 violet">Rooms</h5>
+                <h5 class="footer-text-h5 violet">Gift Card</h5>
+                <h5 class="footer-text-h5 violet">Testimonials</h5>
 
+            </div>
+            <div>
+                <h4 class="footer-title">Privacy</h4>
+                <h5 class="footer-text-h5 violet">Career</h5>
+                <h5 class="footer-text-h5 violet">About Us</h5>
+                <h5 class="footer-text-h5 violet">Contact Us</h5>
+                <h5 class="footer-text-h5 violet">Services</h5>
+
+            </div>
+            <div>
+                <h4 class="footer-title">Contact Info</h4>
+                <h5 class="footer-text-h5"><a href="mailto:mail@gmail.com"> <i class="contact-icon fa-regular fa-envelope"></i>mail@gmail.com</a></h5>
+                <h5 class="footer-text-h5"><a href="callto:+03204224254"><i class="fa-solid fa-phone"></i> +0 320 422 4254
+                </a></h5>
+                <h5 class="footer-text-h5"><a href="https://goo.gl/maps/t7MTJMwoZ2cYxGE2A" target="blank"> <i class="fa-solid fa-location-dot"></i> Main Str Chicago Ilinois</a></h5>                              
+            </div>
+            
+        </div>
+        <div class="footer-block-container">
+            <p class="footer-p">Copyright ©2020 All rights reserved | This template is made with love by <a class="violet-a" href="#"> Marian</a> </p>
+            <a class="footer-a violet-a" href="#">www.portfolioname.com</a>
+        </div>
+        
+
+
+
+    </footer>
+    <i class="fa-regular fa-envelope"></i>
     
 </body>
 </html>
